@@ -16,7 +16,7 @@ class App extends Component {
                       <img src={sLogo} className="App-logo" alt="logo" />
                     </div>
                     <div className="links">
-                      <li><a class="active" href="TEMPORARY-LINK">Topics</a></li>
+                      <li><a class="active" href="TEMPORARY-LINk">Topics</a></li>
                       <li><a href="TEMPORARY-LINK">Convos</a></li>
                       <li><a href="TEMPORARY-LINK">Account</a></li>
                     </div>
