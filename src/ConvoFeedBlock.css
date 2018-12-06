@@ -1,0 +1,33 @@
+/* Style sheet for ConvoFeedBlock.js */
+.feedBlock {
+  border-width: 3px;
+  border-color: black;
+  border-style: solid;
+  margin: 0 auto;
+  margin-top: 10px;
+  max-height: 100%;
+  height: auto;
+  width: 900px;
+  max-width: 100%;
+}
+.convoName {
+  text-align: left;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: auto;
+  max-width: 95%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lastConvoMessage {
+  text-align: left;
+  font-size: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border-width: 0;
+  border-top: 1px;
+  border-color: black;
+  border-style: solid;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
