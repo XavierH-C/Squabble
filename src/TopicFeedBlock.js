@@ -27,7 +27,7 @@ class TopicFeedBlock extends Component {
   // For now, static elements are created, in the future state variables will be written below and sourced from a database
   render() {
     return (
-      <div className="feedBlock">
+      <div className="topicFeedBlock">
         <p className="convoName">
           {this.state.title}
         </p>

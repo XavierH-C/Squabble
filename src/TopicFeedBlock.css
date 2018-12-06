@@ -1,5 +1,5 @@
 /* Style sheet for TopicFeedBlock.js */
-.feedBlock {
+.topicFeedBlock {
   border-width: 3px;
   border-color: black;
   border-style: solid;
@@ -8,7 +8,6 @@
   max-height: 120%;
   height: auto;
   max-width: 100%;
-
 }
 .convoName {
   text-align: left;
@@ -16,7 +15,7 @@
   margin: 0 auto;
   margin-top: 10px;
   height: auto;
-  max-width: 95%;
+  max-width: 100%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .convoDescription {
