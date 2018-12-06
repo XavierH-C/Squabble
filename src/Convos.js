@@ -3,6 +3,7 @@
 import React, { Component } from 'react';
 // Now we can import the style scheet for this element and needed elements that this element calls
 import './Convos.css';
+import ConvoFeedBlock from './ConvoFeedBlock';
 
 // Convos should should the user's active conversations and let them access them
 class Convos extends Component {
@@ -12,21 +13,35 @@ class Convos extends Component {
     super();
     // The contructor is where you should fetch data to populate the feed block, to be added in development
   }
+  // A dynamic bock creation should replace these default calls, rendering fresh blocks as the user scrolls downwards
   render() {
     return (
       <div className="Convos">
           <div className="ConvoFeed">
-            <p className="Placeholder">
-              Convos:
-              This is where the converstions should go, showing your active convos and the option to view the mesages.
-              This is where the converstions should go, showing your active convos and the option to view the mesages.
-              This is where the converstions should go, showing your active convos and the option to view the mesages.
-              This is where the converstions should go, showing your active convos and the option to view the mesages.
-              This is where the converstions should go, showing your active convos and the option to view the mesages.
-              This is where the converstions should go, showing your active convos and the option to view the mesages.
-              This is where the converstions should go, showing your active convos and the option to view the mesages.
-              This is where the converstions should go, showing your active convos and the option to view the mesages.
-            </p>            
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
+            <ConvoFeedBlock />
           </div>
       </div>
     );
