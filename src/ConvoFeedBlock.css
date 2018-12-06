@@ -1,5 +1,5 @@
 /* Style sheet for ConvoFeedBlock.js */
-.feedBlock {
+.convoFeedBlock {
   border-width: 3px;
   border-color: black;
   border-style: solid;
@@ -7,8 +7,15 @@
   margin-top: 10px;
   max-height: 100%;
   height: auto;
-  width: 900px;
+  width: 1000px;
   max-width: 100%;
+  outline: none;
+}
+.convoFeedBlock:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.convoFeedBlock:active{
+  background-color: grey;
 }
 .convoName {
   text-align: left;

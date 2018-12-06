@@ -20,7 +20,7 @@ class ConvoFeedBlock extends Component {
   // For now, static elements are created, in the future state variables will be written below and sourced from a database
   render() {
     return (
-      <button className="feedBlock" onClick={this.convoClicked}>
+      <button className="convoFeedBlock" onClick={this.convoClicked}>
         <p className="convoName">
           {this.state.title}
         </p>
