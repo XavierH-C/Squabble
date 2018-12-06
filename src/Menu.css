@@ -1,0 +1,48 @@
+/* Style sheet for Menu.js */
+.Menu-logo {
+  height: 80px;
+}
+.Menu-header {
+  background-image: url('./BackgroundInspo.png');
+  background-position: right top;
+  height: 100px;
+  padding: 20px;
+  color: orange;
+  position: sticky;
+}
+.logo {
+  position: absolute;
+  width: 250px;
+  height: 80px;
+  margin: auto;
+  left: 50px;
+}
+.links {
+  position: absolute;
+  margin: auto;
+  top: 35px;
+  right: 2%;
+  margin: 0 auto;
+  max-height: 50%;
+  height: auto;
+  max-width: 50%;
+}
+.link{
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 100%;
+  outline: none;
+}
+.link:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.link:active{
+  background-color: grey;
+}

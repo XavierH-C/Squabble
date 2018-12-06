@@ -1,3 +1,5 @@
+// App.test.js is automaticly generated when creating a react project and so I have no idea what it does
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
