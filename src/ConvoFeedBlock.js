@@ -8,24 +8,22 @@ import './ConvoFeedBlock.css';
 class ConvoFeedBlock extends Component {
   constructor() {
     super();
-    // The contructor is where you should fetch data to populate block, for now let's pass placeholder values.
-    this.state = {title: "Pineapple does go on pizza", lastMessage: "I respecfully disagree and will try to explain my views on this issue."};
     // TopicFeedBlock has functions, in react you must bind the functions to the instance of the element during initialisation
    this.convoClicked = this.convoClicked.bind(this);
   }
   // When a Convo is clicked on, open the chat massage in "main" div
   convoClicked() {
-    alert("Conversation was clicked, open message chat!");
+    alert("Conversation was clicked, open message chat with "+this.props.convoUser+"!");
   }
-  // For now, static elements are created, in the future state variables will be written below and sourced from a database
+  // Elements passed from the parent Convo.js
   render() {
     return (
       <button className="convoFeedBlock" onClick={this.convoClicked}>
         <p className="convoName">
-          {this.state.title}
+          {this.props.title}
         </p>
         <p className="lastConvoMessage">
-          {this.state.lastMessage}
+          {this.props.convoUser} : {this.props.lastMessage}
         </p>
       </button>
     );

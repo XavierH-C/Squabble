@@ -12,30 +12,16 @@ class Convos extends Component {
     return (
       <div className="Convos">
           <div className="ConvoFeed">
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
-            <ConvoFeedBlock />
+          <ConvoFeedBlock title="Pineapple does go on pizza" convoUser="Laila Theriault" 
+            lastMessage="I respecfully disagree and will try to explain my views on this issue."/>
+          <ConvoFeedBlock title="Marvel movies are in all ways superior to DC's cinematic releases" convoUser="Xavier H-C" 
+            lastMessage="But have you seen Batman vs. Superman?"/>
+          <ConvoFeedBlock title="The United States should ban high-capacity magazines" convoUser="William Captain" 
+            lastMessage="I respecfully disagree and will try to explain my views on this issue."/>
+          <ConvoFeedBlock title="Abortions should be easily available to all women" convoUser="Pichou Hebert" 
+            lastMessage="Hmm, I never saw it that way"/>
+          <ConvoFeedBlock title="Pineapple does go on pizza" convoUser="Charles Couturier" 
+            lastMessage="I once went to hawaii and there was no pineapple pizza there!"/>
           </div>
       </div>
     );
