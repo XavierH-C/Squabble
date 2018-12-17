@@ -9,6 +9,7 @@ import './Menu.css';
 import Topics from './Topics';
 import Convos from './Convos';
 import Accounts from './Accounts';
+import Chat from './Chat';
 
 // Menu.js should enable navigation of the site by the user and manage what is displayed in the "main" html div
 class Menu extends Component {
@@ -18,8 +19,15 @@ class Menu extends Component {
     this.topicClick = this.topicClick.bind(this);
     this.convoClick = this.convoClick.bind(this);
     this.accountClick = this.accountClick.bind(this);
+    this.agreeClick = this.agreeClick.bind(this);
     // The state attribute page keeps track of the currently diplayed page element so you do not needlessly reload elements
     this.state = {page: 0};
+  }
+  agreeClick() {
+    this.setState({
+      page : 4
+    });
+    ReactDOM.render(<Chat convoName={this.convoName} convoUser={this.convoUser} />, document.getElementById('Main'));
   }
   // topicClick is ran when the Topics button is clicked, if not already dispaying the Topic element then display the Topics element
   topicClick() {
@@ -28,7 +36,7 @@ class Menu extends Component {
         page: 0
       });
       // render Topics element
-      ReactDOM.render(<Topics/>, document.getElementById('Main'));
+      ReactDOM.render(<Topics agreeClick={this.agreeClick}/>, document.getElementById('Main'));
     }
     // Confirmation of the running of the function for development purposes, should be removed before launch
     console.log("topicClick clicked!");

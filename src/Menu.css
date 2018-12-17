@@ -6,33 +6,33 @@
   background-image: url('./BackgroundInspo.png');
   background-position: right top;
   height: 100px;
-  padding: 20px;
+  padding: 1%;
   color: orange;
   position: sticky;
 }
 .logo {
   position: absolute;
-  width: 250px;
-  height: 80px;
+  overflow: hidden;
+  width: 35%;
   margin: auto;
-  left: 50px;
+  left: 5%;
 }
 .links {
   position: absolute;
-  margin: auto;
   top: 35px;
   right: 2%;
   margin: 0 auto;
   max-height: 50%;
   height: auto;
-  max-width: 50%;
+  max-width: 100%;
+  overflow-x: visible;
 }
 .link{
   background-color: red;
   border: none;
   color: white;
-  padding: 20px 40px;
   text-align: center;
+  padding: 6% 5%;
   display: inline-block;
   margin: 4px 5px;
   cursor: pointer;
