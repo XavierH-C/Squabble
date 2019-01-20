@@ -13,23 +13,23 @@ import PageNotFound from './components/PageNotFound'
 
 // Let's render the components that make up the app, with React-Router paths
 class App extends Component {
-    render() {
-        return(
-            <BrowserRouter>
-                <div>
-                    <Menu />
-                    <Switch>
-                        <Route path="/" component={Topics} exact />
-                        <Route path="/convos" component={Convos} />
-                        <Route path="/chat" component={Chat} />
-                        <Route path="/accounts" component={Accounts} />
-                        <Route component={PageNotFound} />
-                    </Switch>
-                    <Footer />
-                </div>
-            </BrowserRouter>
-        );
-    }
+  render () {
+    return (
+      <BrowserRouter>
+        <div>
+          <Menu />
+          <Switch>
+            <Route path='/' component={Topics} exact />
+            <Route path='/convos' component={Convos} />
+            <Route path='/chat' component={Chat} />
+            <Route path='/accounts' component={Accounts} />
+            <Route component={PageNotFound} />
+          </Switch>
+          <Footer />
+        </div>
+      </BrowserRouter>
+    )
+  }
 }
 
-export default App;
+export default App
