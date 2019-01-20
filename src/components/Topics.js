@@ -5,10 +5,10 @@ import React, { Component } from 'react'
 import './Topics.css'
 import TopicFeedBlock from './TopicFeedBlock'
 // We'll need to manually import an image for now, in the future any images should be sourced from a database
-import pineapplePlaceholderImg from './pineappleImg.jpg'
-import highCapacityImg from './highCapacityImg.png'
-import abortionImg from './abortionImg.jpeg'
-import marvelImg from './marvelImg.webp'
+import pineapplePlaceholderImg from '../images/pineappleImg.jpg'
+import highCapacityImg from '../images/highCapacityImg.png'
+import abortionImg from '../images/abortionImg.jpeg'
+import marvelImg from '../images/marvelImg.webp'
 // Topics.js loads the feed and structure for TopicFeedBlocks
 class Topics extends Component {
   // A dynamic bock creation should replace these default calls, rendering fresh blocks as the user scrolls downwards

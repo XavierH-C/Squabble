@@ -1,8 +1,7 @@
-/* Style sheet for Chat.js */
-.Chat {
+/* Style sheet for PageNotFound.js */
+.Error {
   margin: 0 auto;
   max-height: 100%;
   height: auto;
   max-width: 75%;
-
 }

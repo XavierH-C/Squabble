@@ -3,7 +3,7 @@
   height: 80px;
 }
 .Menu-header {
-  background-image: url('./BackgroundInspo.png');
+  background-image: url('../images/BackgroundInspo.png');
   background-position: right top;
   height: 100px;
   padding: 1%;
@@ -34,7 +34,7 @@
   text-align: center;
   padding: 6% 5%;
   display: inline-block;
-  margin: 4px 5px;
+  margin: 0px 2px;
   cursor: pointer;
   border-radius: 5px;
   font-size: 100%;

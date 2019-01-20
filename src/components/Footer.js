@@ -2,7 +2,7 @@
 // Let's import react to run react
 import React, { Component } from 'react'
 // We'll need to manually import an image for now, in the future any images should be sourced from a database
-import fbIcon from './fbIcon.png'
+import fbIcon from '../images/fbIcon.png'
 // Now we can import the style scheet for this element and needed elements that this element calls
 import './Footer.css'
 

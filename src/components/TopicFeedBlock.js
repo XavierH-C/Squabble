@@ -3,7 +3,6 @@
 import React, { Component } from 'react'
 // Now we can import the style scheet for this element and needed elements that this element calls
 import './TopicFeedBlock.css'
-import Menu from './Menu'
 
 // TopicFeedBlock displays a specific topic for the Topics feed, each block includes the topic's name, description, an image for context and two buttons for the user to choose their position
 class TopicFeedBlock extends Component {

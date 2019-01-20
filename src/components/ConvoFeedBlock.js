@@ -1,6 +1,7 @@
 // Xavier Hébert-Couturier, December 5th, 2018
-// Let's import react to run react
+// Let's import react and react-router-dom to run react and render elemets
 import React, { Component } from 'react'
+import { NavLink } from 'react-router-dom'
 // Now we can import the style scheet for this element and needed elements that this element calls
 import './ConvoFeedBlock.css'
 
@@ -18,14 +19,14 @@ class ConvoFeedBlock extends Component {
   // Elements passed from the parent Convo.js
   render () {
     return (
-      <button className='convoFeedBlock' onClick={this.convoClicked}>
+      <NavLink to='/chat' className='convoFeedBlock'>
         <p className='convoName'>
           {this.props.title}
         </p>
         <p className='lastConvoMessage'>
           {this.props.convoUser} : {this.props.lastMessage}
         </p>
-      </button>
+      </NavLink>
     )
   }
 }
